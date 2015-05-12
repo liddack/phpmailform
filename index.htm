@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <meta charset="UTF-8"/>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="app.js"></script>
+    <title>Formulário de Contato PHP Mail</title>
+</head>
+<body>
+<div id="bloco">
+    <form action="" method="post" accept-charset="utf-8">
+        <h3>Entre em contato</h3>
+        <input type="text" name="nome" class="form" placeholder="Nome"/><br />
+        <input type="email" name="email" class="form" placeholder="Email" /><br />
+        <input type="text" name="assunto" class="form" placeholder="Assunto" /><br />
+        <textarea name="msg" rows="6" cols="40" class="form" placeholder="Mensagem"></textarea><br />
+        <input type="submit" id="submit" class="v" value="Enviar" />
+    </form>
+    <div id="resp">
+        <h3 id="msg"></h3>
+        <a class="v">◀ Voltar</a>
+    </div>
+</div>
+</body>
+</html>
+ 
